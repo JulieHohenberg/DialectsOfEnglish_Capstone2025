@@ -1,25 +1,26 @@
 import streamlit as st
 import seaborn as sns
+import re
 
 # Load data
 @st.cache_data(show_spinner="Fetching data from Google Drive…")
 def load_from_drive(file_map):
     dfs = {}
-    for name, file_id in file_map.items():
-        url = f"{file_id}"
+    for name, link in file_map.items():
+        # Extract file ID from either full link or raw ID
+        match = re.search(r'/d/([a-zA-Z0-9_-]+)', link)
+        if match:
+            file_id = match.group(1)
+        else:
+            file_id = link  # if already just an ID
+        
+        url = f"https://drive.google.com/uc?id={file_id}"
         output = Path(f"{name}.csv")
         if not output.exists():
             gdown.download(url, str(output), quiet=False)
         dfs[name] = pd.read_csv(output)
     return dfs
 
-data = load_from_drive(st.secrets["drive_files"])
-questions, choices, users, responses = (
-    data["questions"],
-    data["choices"],
-    data["users"],
-    data["responses"],
-)
 
 st.success("✅ All four datasets loaded successfully!")
 
