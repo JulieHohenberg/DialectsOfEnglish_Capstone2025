@@ -1,1 +1,1 @@
-# DialectsOfEnglish_Capstone2025
+# Boston College 2025 Data Science Capstone: Dialects of English
