@@ -21,6 +21,11 @@ def load_from_drive(file_map):
         dfs[name] = pd.read_csv(output)
     return dfs
 
+## define
+questions = data["questions"]
+choices   = data["choices"]
+users     = data["users"]
+responses = data["responses"]
 
 st.success("✅ All four datasets loaded successfully!")
 
