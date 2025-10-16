@@ -1,6 +1,28 @@
 import streamlit as st
 import seaborn as sns
 
+# Load data
+@st.cache_data(show_spinner="Fetching data from Google Drive…")
+def load_from_drive(file_map):
+    dfs = {}
+    for name, file_id in file_map.items():
+        url = f"{file_id}"
+        output = Path(f"{name}.csv")
+        if not output.exists():
+            gdown.download(url, str(output), quiet=False)
+        dfs[name] = pd.read_csv(output)
+    return dfs
+
+data = load_from_drive(st.secrets["drive_files"])
+questions, choices, users, responses = (
+    data["questions"],
+    data["choices"],
+    data["users"],
+    data["responses"],
+)
+
+st.success("✅ All four datasets loaded successfully!")
+
 st.header("📈 Word Usage Over Time")
 
 # -------------------------------
