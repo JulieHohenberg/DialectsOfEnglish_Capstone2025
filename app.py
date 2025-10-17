@@ -6,6 +6,9 @@ import gdown
 import re
 from pathlib import Path
 
+st.write("🔍 Debug secrets path loaded:", st.secrets._path)
+st.write("🔍 Keys available:", list(st.secrets.keys()))
+
 st.set_page_config(page_title="Dialect Change Over Time", layout="wide")
 st.title("📈 U.S. Dialect Word Usage Over Time")
 
