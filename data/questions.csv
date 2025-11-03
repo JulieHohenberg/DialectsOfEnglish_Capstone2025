@@ -1,0 +1,182 @@
+id,survey_id,text,allows_other,allows_comment,image,index
+1,1,"What do you call the long cold sandwich that contains cold cuts, lettuce, and so on? Select all terms that you might actually use. (Don't include terms that aren't in your natural vocabulary but that you might use to accommodate someone who you think uses a different form.)",1,1,1-hoagie.jpg,1
+2,1,"What is your generic casual or informal term for a sweetened carbonated beverage? (As in: ""We have milk, beer, apple juice, and four kinds of _____: Pepsi, 7Up, root beer, and ginger ale."") If you use more than one in your informal speech, check all of them here.",1,1,2-soda.jpg,2
+7,1,"What is your general, informal term for the rubber-soled shoes worn in gym class, for athletic activities, etc.?",1,1,7-Shoe.jpg,3
+13,1,"What do you call the kind of crustacean that looks like a tiny lobster and lives in lakes and streams?",1,1,13-orconectes.jpg,4
+20,1,"What word(s) do you use in casual speech to address a group of two or more people?",1,1,,5
+21,1," What do you call the little gray (or black or brown) creature (that looks like an insect but is actually a crustacean) that rolls up into a ball when you touch it?",1,1,21-pillbug.jpg,6
+30,1," What do you call the kind of rain that falls while the sun is shining?",1,1,,7
+31,1,"What do you call the gooey or dry matter that collects in the corners of your eyes, especially while you are sleeping?",1,1,,8
+67,1,"How do you pronounce the vowel sound in the word <aunt> ('parent's sister')?",1,1,,9
+68,1,"What is your preferred general and casual term for a sale of your unwanted items (which may be held on your porch, in your yard, garden, or house, from the back of your car, etc.)?",1,1,68-sale.jpg,10
+69,1,"What do you call the wheeled contraption in which you carry groceries at the grocery store or supermarket?",1,1,69-shopping_cart.jpg,11
+70,1,"What do you call a traffic intersection in which several roads meet in a circle and you have to get off at a certain point?",1,1,70-traffic-circle.jpg,12
+71,1,"Do you pronounce r's when they aren't followed by a vowel, as in car, cart, carton, and so on?",1,1,,13
+72,1,"How do you pronounce <sawing> and <saw it>, as in ""I enjoy sawing wood"" and ""she saw it""?",1,1,,14
+73,1,"If you feel sort of blah (in other words, a bit depressed, tired, uninspired, etc.), could you say you feel:",1,1,,15
+74,1,"How do you pronounce <Shah of>, as in ""Abbas was a famous Shah of Iran""?",1,1,74-abbas.jpg,16
+75,1,"How do you pronounce <which> and <witch>?",1,1,75-Witch-Bobble_L.jpg,17
+76,1,"What do you call the meal you eat in the evening, normally somewhere between 5 and 10 PM?",1,1,,18
+77,1,"If you decide to go to the opening night of Tom Cruise's new film, you may have to wait:",1,1,77-queue.jpg,19
+78,1,"What do you call an upholstered seat for more than one person?",1,1,78-couch.jpg,20
+79,1,"What do you a call a store that is devoted primarily to selling alcoholic beverages?",1,1,79-liquor-store.jpg,21
+80,1,"What do you call a room equipped with toilets and lavatories for public use?",1,1,80-restroom.jpg,22
+81,1,"What do you call the auxiliary brake that's attached to a rear wheel or the transmission and keeps the car from moving accidentally?",1,1,81-brake.jpg,23
+82,1,"What do you call an automobile transmission system in which gears are selected by the driver by means of a hand-operated gearshift and a foot-operated clutch?",1,1,82-transmission.jpg,24
+83,1,"What do you call an artificial nipple, usually made of plastic, which an infant can suck or chew on?",1,1,83-pacifier.jpg,25
+84,1,"What do you call food purchased at a restaurant to be eaten elsewhere?",1,1,84-food.jpg,26
+85,1,"What do you call this large aquatic bug that skims along the surface of water?",1,1,85-waterbug.jpg,27
+86,1,"What do you call a narrow street or passageway between or behind buildings?",1,1,86-alley.jpg,28
+87,1,"What do you call an unattended machine (normally outside a bank) that dispenses money when a personal coded card is used?",1,1,87-atm.jpg,29
+88,1,"What do you call your fifth/smallest toe?",1,1,88-toe.jpg,30
+89,1,"What do you call this long green herb that is used as a garnish or in soups, salads and stir-fry dishes? (It belongs to the genus Allium and lacks a fully-developed bulb.)",1,1,89-onion.jpg,31
+90,4,"How do you pronounce the name of this small British quick bread (or cake if the recipe includes sugar)?",1,1,90-scone.jpg,1
+91,4,"What do you call a small round piece of bread typically used as a side dish?",1,1,91-bread_roll.jpg,2
+92,4,"How do you pronounce the word ""last""?",1,1,,3
+93,4,"What do you call a narrow, pedestrian lane found in urban areas which usually runs between or behind buildings?",1,1,93-alley.jpg,4
+94,4,"What do you call a young person in cheap trendy clothes and jewellery?",1,1,94-chav.jpg,5
+95,4,"How do you pronounce the letter ""H""?",1,1,,6
+96,4,"What do you call short undergarments worn on the lower body?",1,1,96-underwear.jpg,7
+97,4,"How do you pronounce the past tense of the verb ""eat""?",1,1,,8
+98,4,"What is your general term for the type of rubber-soled shoes that one typically wears for athletic activities or casual situations?",1,1,98-gymshoe.jpg,9
+99,4,"How do you pronounce the word ""schedule""?",1,1,,10
+100,4,"What do you call item of clothing worn on the lower part of the body from the waist to the ankles, covering both legs separately?",1,1,100-trousers.jpg,11
+102,4,"What is your general term for sweetened carbonated beverages?",1,1,102-sodas.jpg,12
+103,4,"How do you pronounce the word ""sixth""?",1,1,,13
+104,4,"What do you call a a sandwich made with bread or bread roll (usually white and buttered) and chips, often with some sort of sauce?",1,1,104-ChipButty.jpg,14
+105,4,"How do you pronounce the word ""bald""?",1,1,105-bald.jpg,15
+106,4,"What do you call the person who collects and removes rubbish from residential areas for further processing and disposal?",1,1,106-garbage_man.jpg,16
+107,4,"How do you pronounce the word ""again""?",1,1,,17
+108,4,"What do you call circular junction in which road traffic must travel in one direction around a central island?",0,1,108-roundabout.jpg,18
+109,4,"How do you pronounce the last vowel in the word ""happy""?",1,1,,19
+110,4,"What do you call a rack you dry your clothes on in a house?",1,1,110-clothes_horse.jpg,20
+111,4,"How do you pronounce the word ""sandwich""?",1,1,111-sandwich.jpg,21
+112,4,"What do you call the popular sport played between two teams of eleven players with a spherical ball?",1,1,112-Soccer.jpg,22
+113,4,"How do you pronounce the last vowel in the word ""cinema""?",1,1,,23
+114,4,"What do you say to call for a temporary respite or truce during a game or activity?",1,1,,24
+115,4,"What do you call the creepy crawly thing that often rolls into a ball when touched?",1,1,115-doodlebug.jpg,25
+116,4,"How do you pronounce the word ""cut""?",1,1,,26
+240,2,"Pop or soda?",0,0,,1
+241,3,aunt,0,0,,1
+242,3,been,0,0,,2
+243,3,"the first vowel in ""Bowie knife""",0,0,,3
+244,3,caramel,0,0,,4
+245,3,"the vowel in the second syllable of ""cauliflower""",0,0,,5
+246,3,"the last vowel in ""centaur""",0,0,,6
+247,3,coupon,0,0,,7
+248,3,"Craig (the name)",0,0,,8
+249,3,crayon,0,0,,9
+250,3,"creek (a small body of running water)",0,0,,10
+251,3,"the first vowel in ""Florida""",0,0,,11
+252,3,flourish,0,0,,12
+253,3,"the last vowel in ""handkerchief""",0,0,,13
+254,3,lawyer,0,0,,14
+255,3,"How do you pronounce Mary/merry/marry?",0,0,,15
+256,3,mayonnaise,0,0,,16
+257,3,"the first vowel in ""miracle""",0,0,,17
+258,3,"mischievous vs. mischievious",0,0,,18
+259,3,"the final vowel in ""Monday,"" ""Friday,"" etc.",0,0,,19
+260,3,"the second vowel in ""pajamas""",0,0,,20
+261,3,pecan,0,0,,21
+262,3,poem,0,0,,22
+263,3,really,0,0,,23
+264,3,"realtor (a real estate agent)",0,0,,24
+265,3,"roof, room, broom, root",0,0,,25
+266,3,"route (as in, ""the route from one place to another"")",0,0,,26
+267,3,"the first vowel in ""syrup""",0,0,,27
+268,3,"Do you pronounce ""cot"" and ""caught"" the same?",0,0,,28
+269,3,almond,0,0,,29
+270,3,"the ""s"" in ""anniversary""",0,0,,30
+271,3,asterisk,0,0,,31
+272,3,candidate,0,0,,32
+273,3,"the ""s"" in ""chromosome""",0,0,,33
+274,3,"et cetera",0,0,,34
+275,3,"the final consonant in ""garage""",0,0,,35
+276,3,"the ""c"" in ""grocery""",0,0,,36
+277,3,"huge, humor, humongous, human...",0,0,,37
+278,3,"the ""s"" in ""nursery""",0,0,,38
+279,3,"the ""s"" in the last name of Elvis Presley",0,0,,39
+280,3,quarter,0,0,,40
+281,3,"Do you use ""spigot"" or ""spicket"" to refer to a faucet or tap that water comes out of?",0,0,,41
+282,3,strength,0,0,,42
+283,3,"the final consonant in ""Texas""",0,0,,43
+284,3,"cream cheese",0,0,,44
+285,3,insurance,0,0,,45
+286,3,"New Haven (the city in Connecticut where Yale University is located)",0,0,,46
+287,3,Thanksgiving,0,0,,47
+288,3,umbrella,0,0,,48
+289,3,"I ____ her lifeless body from the pool",0,0,,49
+290,3,"What word(s) do you use to address a group of two or more people?",0,0,,50
+291,3,"Would you say ""Are you coming with?"" as a full sentence, to mean ""Are you coming with us?""",0,0,,51
+292,3,"Would you say ""where are you at?"" to mean ""where are you?""",0,0,,52
+293,3,"Modals are words like ""can,"" ""could,"" ""might,"" ""ought to,"" and so on.  Can you use more than one modal at a time? (e.g., ""I might could do that"" to mean ""I might be able to do that""; or ""I used to could do that"" to mean ""I used to be able to do that"")",0,0,,53
+294,3,"He used to nap on the couch, but he sprawls out in that new lounge chair anymore",0,0,,54
+295,3,"I do exclusively figurative paintings anymore",0,0,,55
+296,3,"Pantyhose are so expensive anymore that I just try to get a good suntan and forget about it.",0,0,,56
+297,3,"Forget the nice clothes anymore (referring to babies eating messily after a certain age)",0,0,,57
+298,3,"Which of these terms do you prefer for a sale of unwanted items on your porch, in your yard, etc.?",0,0,,58
+299,3,"What do you call the game wherein the participants see who can throw a knife closest to the other person (or alternately, get a jackknife to stick into the ground or a piece of wood)?",0,0,,59
+300,3,"What do you call the area of grass between the sidewalk and the road?",0,0,,60
+301,3,"What do you call the area of grass that occurs in the middle of some streets?",0,0,,61
+302,3,"What do you call the long narrow place in the middle of a divided highway?",0,0,,62
+303,3,"What do you call the drink made with milk and ice cream?",0,0,,63
+304,3,"What do you call the long sandwich that contains cold cuts, lettuce, and so on?",0,0,,64
+305,3,"What do you call the insect that flies around in the summer and has a rear section that glows in the dark?",0,0,,65
+306,3,"What do you call the miniature lobster that one finds in lakes and streams for example (a crustacean of the family Astacidae)?",0,0,,66
+307,3,"What do you call the kind of spider (or spider-like creature) that has an oval-shaped body and extremely long legs?",0,0,,67
+308,3,"What nicknames do/did you use for your maternal grandmother?",0,0,,68
+309,3,"What about your paternal grandmother (is there a distinction?)",0,0,,69
+310,3,"What do/did you call your maternal grandfather?",0,0,,70
+311,3,"paternal grandfather?",0,0,,71
+312,3,"What do you call the big clumps of dust that gather under furniture and in corners?",0,0,,72
+313,3,"What is your *general* term for the rubber-soled shoes worn in gym class, for athletic activities, etc.?",0,0,,73
+314,3,"What do you call the little gray creature (that looks like an insect but is actually a crustacean) that rolls up into a ball when you touch it?",0,0,,74
+315,3,"What do you call the wheeled contraption in which you carry groceries at the supermarket?",0,0,,75
+316,3,"What term do you use to refer to something that is across both streets from you at an intersection (or diagonally across from you in general)?",0,0,,76
+317,3,"What do you call the activity of driving around in circles in a car?",0,0,,77
+318,3,"What do you call paper that has already been used for something or is otherwise imperfect?",0,0,,78
+319,3,"What is your *general* term for a big road that you drive relatively fast on?",0,0,,79
+320,3,"What do you call it when rain falls while the sun is shining?",0,0,,80
+321,3,"When you are cold, and little points of skin begin to come on your arms and legs, you have-",0,0,,81
+322,3,"What do you call the gooey or dry matter that collects in the corners of your eyes, especially while you are sleeping?",0,0,,82
+323,3,"What do you call an easy course?",1,1,,83
+324,3,"What do you call a traffic situation in which several roads meet in a circle and you have to get off at a certain point?",0,0,,84
+325,3,"What is the thing that women use to tie their hair?",0,0,,85
+326,3,"Do you use the word cruller?",0,0,,86
+327,3,"Do you use the term ""bear claw"" for a kind of pastry?",0,0,,87
+328,3,"What do you call someone who is the opposite of pigeon-toed (i.e. when they walk their feet point outwards)?",0,0,,88
+329,3,"Can you call coleslaw ""slaw""?",0,0,,89
+330,3,"What do you call the box you bury a dead person in?",0,0,,90
+331,3,"Do you say ""vinegar and oil"" or ""oil and vinegar"" for the type of salad dressing?",0,0,,91
+332,3,"What do you call it when a driver changes over one or more lanes way too quickly?",0,0,,92
+333,3,"When you stand outside with a long line of people waiting to get in somewhere, are you standing ""in line"" or ""on line"" (as in, ""I stood ___ in the cold for two hours before they opened the doors"")?",0,0,,93
+334,3,"Do you say ""frosting"" or ""icing"" for the sweet spread one puts on a cake?",0,0,,94
+335,3,"What is ""the City""?",0,0,,95
+336,3,"What is the distinction between dinner and supper?",0,0,,96
+337,3,"Which of these terms do you prefer?",0,0,,97
+338,3,"Which of these terms do you prefer?",0,0,,98
+339,3,"Which of these terms do you prefer for the small road parallel to the highway?",0,0,,99
+340,3,"Do you cut or mow the lawn or grass?",0,0,,100
+341,3,"Do you pass in homework or hand in homework?",0,0,,101
+342,3,"What do you call the insect that looks like a large thin spider and skitters along the top of water?",0,0,,102
+343,3,"What do you call the thing from which you might drink water in a school?",0,0,,103
+344,3,"What do you call a public railway system (normally underground)?",0,0,,104
+345,3,"What is your generic term for a sweetened carbonated beverage?",0,0,,105
+346,3,"What do you call the act of covering a house or area in front of a house with toilet paper?",0,0,,106
+347,3,"What do you call a traffic jam caused by drivers slowing down to look at an accident or other diversion on the side of the road?",0,0,,107
+348,3,"What vowel do you use in bag?",0,0,,108
+349,3,"What do you call the paper container in which you might bring home items you bought at the store?",0,0,,109
+350,3,"What do you call the night before Halloween?",0,0,,110
+351,3,"What do you call the end of a loaf of bread?",0,0,,111
+352,3,"How do you pronounce the word for the type of drug that acts as central nervous system depressant and is used as a sedative or hypnotic? (Please do not look up the word in a dictionary before answering this question.)",0,0,,112
+353,3,amphitheater,0,0,,113
+354,3,citizen,0,0,,114
+355,3,"What do you call a point that is purely academic, or that cannot be settled and isn't worth discussing further?",0,0,,115
+356,3,"How do you pronounce the -sp- sequence in ""thespian"" (the word meaning ""actor"")?",0,0,,116
+357,3,"What do you call the level of a building that is partly or entirely underground?",0,0,,117
+358,3,"What do you call a drive-through liquor store?",0,0,,118
+359,3,"What do you call food that you buy at a restaurant but then eat at home?",0,0,,119
+360,3,"What do you say when you want to lay claim to the front seat of a car?",0,0,,120
+361,3,"What word do you use for gawking at someone in a lustful way?",0,0,,121
+362,3,"Do you say ""expecially"", or ""especially""?",0,0,,122
+363,5,"What do you call a long, slender wasp that builds its nest from mud?",1,1,mud_wasp.jpg,1
