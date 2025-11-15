@@ -9,4 +9,130 @@ from pathlib import Path
 
 st.set_page_config(page_title="Dialect App", layout="wide")
 st.title("Welcome to the Dialect App")
-st.write("Use the sidebar to navigate between pages!")
+
+import streamlit as st
+
+def landing_page():
+
+    st.set_page_config(layout="wide")
+
+    # Title Section
+    st.markdown("""
+    <h1 style='text-align: center; font-size: 3rem;'>English Dialect Survey Explorer</h1>
+    <p style='text-align: center; font-size: 1.3rem;'>
+        Explore one of the most detailed datasets of dialect variation in the English-speaking world.
+    </p>
+    """, unsafe_allow_html=True)
+
+  
+    st.markdown("---")
+
+    # Data Source Section
+    st.subheader("Data Source")
+    st.markdown("""
+    <div style="background-color: #F8F9FA; padding: 20px; border-radius: 12px;">
+        <b>Dr. Bert Vaux</b>, a linguistics professor, collected English dialect data for decades.<br><br>
+        • Early surveys were done on <b>paper</b> and manually transcribed<br>
+        • Later surveys were collected <b>digitally</b> by CS students<br>
+        • Questions include both <b>text prompts</b> and <b>images</b><br><br>
+        This dataset reflects natural, real-world variation, but also comes with noise and duplicates.
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.markdown("---")
+
+    # What’s in the Dataset — Visual Grid
+    st.header("What’s in the Dataset?")
+    st.write("Here’s an overview of the four main components of the survey:")
+
+    colA, colB = st.columns(2)
+    colC, colD = st.columns(2)
+
+    with colA:
+        st.markdown("""
+        <div style="background-color:#FFE5E5; padding:20px; border-radius:15px;">
+            <h3>Users</h3>
+            <ul>
+                <li>User ID + basic info</li>
+                <li>Location + email</li>
+                <li>Language background</li>
+                <li><b>~360,000 users</b></li>
+            </ul>
+        </div>
+        """, unsafe_allow_html=True)
+
+    with colB:
+        st.markdown("""
+        <div style="background-color:#E2F7E1; padding:20px; border-radius:15px;">
+            <h3>Questions</h3>
+            <ul>
+                <li><b>165 dialect questions</b></li>
+                <li>Some include images</li>
+                <li>6K–285M responses/question</li>
+                <li>~65K average per question</li>
+            </ul>
+        </div>
+        """, unsafe_allow_html=True)
+
+    with colC:
+        st.markdown("""
+        <div style="background-color:#FFF3C4; padding:20px; border-radius:15px;">
+            <h3>Choices</h3>
+            <ul>
+                <li>1–59 choices per question</li>
+                <li>~8 choices on average</li>
+                <li>Example: hero, hoagie, grinder...</li>
+            </ul>
+        </div>
+        """, unsafe_allow_html=True)
+
+    with colD:
+        st.markdown("""
+        <div style="background-color:#DDEBFF; padding:20px; border-radius:15px;">
+            <h3>Responses</h3>
+            <ul>
+                <li>Links user → question → choice</li>
+                <li>Can include free-text</li>
+                <li>Massive variability per question</li>
+            </ul>
+        </div>
+        """, unsafe_allow_html=True)
+
+    st.markdown("---")
+
+    # Pros & Cons Section — Colored Side-by-Side
+    st.header("Pros & Cons of the Dataset")
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.markdown("""
+        <div style="background-color:#E8FFE8; padding:20px; border-radius:12px;">
+            <h3>✅ Pros</h3>
+            <ul>
+                <li>Fully relational structure</li>
+                <li>Consistent IDs across tables</li>
+                <li>Large-scale dialect data</li>
+            </ul>
+        </div>
+        """, unsafe_allow_html=True)
+
+    with col2:
+        st.markdown("""
+        <div style="background-color:#FFE8E8; padding:20px; border-radius:12px;">
+            <h3>❌ Cons</h3>
+            <ul>
+                <li>Duplicate users & emails</li>
+                <li>Repeated questions</li>
+                <li>Requires deduplication</li>
+            </ul>
+        </div>
+        """, unsafe_allow_html=True)
+
+    st.markdown("---")
+
+    # Final Navigation Suggestion
+    st.info("Use the sidebar to begin exploring questions, users, and visualizations!")
+
+if __name__ == "__main__":
+    landing_page()
+
