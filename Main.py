@@ -8,9 +8,6 @@ from pathlib import Path
 
 
 st.set_page_config(page_title="Dialect App", layout="wide")
-st.title("Welcome to the Dialect App")
-
-import streamlit as st
 
 def landing_page():
 
@@ -18,9 +15,9 @@ def landing_page():
 
     # Title Section
     st.markdown("""
-    <h1 style='text-align: center; font-size: 3rem;'>English Dialect Survey Explorer</h1>
+    <h1 style='text-align: center; font-size: 3rem;'>English Dialect App</h1>
     <p style='text-align: center; font-size: 1.3rem;'>
-        Explore one of the most detailed datasets of dialect variation in the English-speaking world.
+        Explore our detailed datasets of dialect variation in the English-speaking world.
     </p>
     """, unsafe_allow_html=True)
 
@@ -128,10 +125,6 @@ def landing_page():
         </div>
         """, unsafe_allow_html=True)
 
-    st.markdown("---")
-
-    # Final Navigation Suggestion
-    st.info("Use the sidebar to begin exploring questions, users, and visualizations!")
 
 if __name__ == "__main__":
     landing_page()
