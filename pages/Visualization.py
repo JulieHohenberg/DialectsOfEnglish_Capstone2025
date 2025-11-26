@@ -5,6 +5,8 @@ import re
 from pathlib import Path
 import plotly.express as px
 import numpy as np
+import gdown
+import re
 
 
 st.set_page_config(page_title="Dialect Change Over Time", layout="wide")
@@ -29,13 +31,17 @@ def load_from_drive(_file_map):
             file_id = link.strip()
 
         # Direct download URL
-        url = f"https://drive.usercontent.google.com/download?id={file_id}&confirm=t"
+        url = f"https://drive.google.com/uc?id={file_id}"
 
         output = data_folder / f"{name}.csv"
 
         if not output.exists():
             gdown.download(url, str(output), quiet=False)
-        dfs[name] = pd.read_csv(output, low_memory=False)
+        try:
+            dfs[name] = pd.read_csv(output, low_memory=False, on_bad_lines='skip')
+        except pd.errors.ParserError:
+            st.error(f"Could not parse {name}.csv. Make sure it is a valid CSV.")
+            st.stop()
     return dfs
 
 
