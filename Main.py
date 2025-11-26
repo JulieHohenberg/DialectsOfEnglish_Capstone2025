@@ -1,11 +1,4 @@
 import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import gdown
-import re
-from pathlib import Path
-
 
 st.set_page_config(page_title="Dialect App", layout="wide")
 
@@ -28,7 +21,7 @@ def landing_page():
     st.subheader("Data Source")
     st.markdown("""
     <div style="background-color: #F8F9FA; padding: 20px; border-radius: 12px;">
-        <b>Dr. Bert Vaux</b>, a linguistics professor, collected English dialect data for decades.<br><br>
+        <b>Dr. Bert Vaux</b>, a linguistics professor from the University of Cambridge, collected English dialect data for decades.<br><br>
         • Early surveys were done on <b>paper</b> and manually transcribed<br>
         • Later surveys were collected <b>digitally</b> by CS students<br>
         • Questions include both <b>text prompts</b> and <b>images</b><br><br>
@@ -38,8 +31,8 @@ def landing_page():
 
     st.markdown("---")
 
-    # What’s in the Dataset — Visual Grid
-    st.header("What’s in the Dataset?")
+    # What’s in the Dataset Section
+    st.subheader("What’s in the Dataset?")
     st.write("Here’s an overview of the four main components of the survey:")
 
     colA, colB = st.columns(2)
@@ -94,37 +87,6 @@ def landing_page():
             </ul>
         </div>
         """, unsafe_allow_html=True)
-
-    st.markdown("---")
-
-    # Pros & Cons Section — Colored Side-by-Side
-    st.header("Pros & Cons of the Dataset")
-    col1, col2 = st.columns(2)
-
-    with col1:
-        st.markdown("""
-        <div style="background-color:#E8FFE8; padding:20px; border-radius:12px;">
-            <h3>✅ Pros</h3>
-            <ul>
-                <li>Fully relational structure</li>
-                <li>Consistent IDs across tables</li>
-                <li>Large-scale dialect data</li>
-            </ul>
-        </div>
-        """, unsafe_allow_html=True)
-
-    with col2:
-        st.markdown("""
-        <div style="background-color:#FFE8E8; padding:20px; border-radius:12px;">
-            <h3>❌ Cons</h3>
-            <ul>
-                <li>Duplicate users & emails</li>
-                <li>Repeated questions</li>
-                <li>Requires deduplication</li>
-            </ul>
-        </div>
-        """, unsafe_allow_html=True)
-
 
 if __name__ == "__main__":
     landing_page()
